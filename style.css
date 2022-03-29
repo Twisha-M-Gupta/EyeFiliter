@@ -1,0 +1,44 @@
+body {
+    background-image: url("Capture.PNG");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    background-color: #f4726c;
+}
+
+button:hover {
+    background-color: #accdc9;
+}
+
+canvas:hover {
+    animation-name: primary;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes primary {
+    from {
+        box-shadow: 1px 1px 100px #f4726c;
+    }
+    to {
+        box-shadow: 1px 1px 100px #a3e9e1;
+    }
+}
+
+canvas {
+    animation-name: secendary;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes secendary {
+    from {
+        box-shadow: 1px 1px 100px #a3e9e1;
+    }
+    to {
+        box-shadow: 1px 1px 100px #f4726c;
+    }
+}
